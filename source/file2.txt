@@ -1,0 +1,2 @@
+This is file2 for backup practice
+Kubernetes manages containers
