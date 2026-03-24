@@ -22,3 +22,6 @@ tail -n 10 "$LOG_DIR/backup.log" > "$LOG_DIR/backup_recent.log"
 mv "$LOG_DIR/backup_recent.log" "$LOG_DIR/backup.log"
 
 echo "Backup created for $SOURCE_DIR at $DATE" >> "$LOG_DIR/backup.log"
+echo "Backup file created: $BACKUP_FILE"
+echo "Last log entry:"
+tail -n 5 "$LOG_DIR/backup.log"
