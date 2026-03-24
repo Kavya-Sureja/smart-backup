@@ -1,6 +1,6 @@
 #!/bin/bash
 
-cd /home/devps-user/devops-projects/smart-backup
+cd /app
 
 DATE=$(date  +%Y-%m-%d_%H-%M-%S)
 
