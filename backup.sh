@@ -1,5 +1,7 @@
 #!/bin/bash
 
+cd /home/devps-user/devops-projects/smart-backup
+
 DATE=$(date  +%Y-%m-%d_%H-%M-%S)
 
 SOURCE_DIR="./source"
